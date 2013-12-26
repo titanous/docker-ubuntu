@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:precise
 ENV DEBIAN_FRONTEND noninteractive
 #
 # resolvconf & fuse need some love to run in a container
